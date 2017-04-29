@@ -24,8 +24,8 @@ class Ship{
                     this.addPosition(pos);
                     this.board.AddShip(pos);    
             }
-            counter++; counter++;
-            if(counter>1000)
+            counter++;
+            if(counter>100000)
             break;
         }
         if(this.shipPositions.length == this.shipLength)
