@@ -25,8 +25,11 @@ class Ship{
                     this.board.AddShip(pos);    
             }
             counter++;
-            if(counter>100000)
-            break;
+            if (counter > 100000) {
+                console.log('didnt create');
+                break;
+            }
+           
         }
         if(this.shipPositions.length == this.shipLength)
             return true
