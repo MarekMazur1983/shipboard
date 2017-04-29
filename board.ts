@@ -107,9 +107,7 @@ enum FieldStatus{
     OWN=1,
     ENEMY=2
 }
-function testF(){
 
-}
 interface ICallback{
     callback:()=>void;
 }

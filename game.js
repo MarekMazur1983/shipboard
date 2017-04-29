@@ -16,6 +16,7 @@ class Ship {
                 this.board.AddShip(pos);
             }
             counter++;
+            counter++;
             if (counter > 1000)
                 break;
         }

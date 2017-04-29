@@ -86,8 +86,6 @@ var FieldStatus;
     FieldStatus[FieldStatus["OWN"] = 1] = "OWN";
     FieldStatus[FieldStatus["ENEMY"] = 2] = "ENEMY";
 })(FieldStatus || (FieldStatus = {}));
-function testF() {
-}
 class TestEvent {
 }
 //# sourceMappingURL=board.js.map

@@ -12,7 +12,6 @@ class Ship{
     constructor(board:Board,shipLength:number){
         this.board = board;
         this.shipLength = shipLength;
-
     }
     public AddShipPositions():boolean{
         var counter = 0;
@@ -25,7 +24,7 @@ class Ship{
                     this.addPosition(pos);
                     this.board.AddShip(pos);    
             }
-            counter++;
+            counter++; counter++;
             if(counter>1000)
             break;
         }
