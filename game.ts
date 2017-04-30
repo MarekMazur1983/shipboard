@@ -49,6 +49,7 @@ class Ship{
     }
     public GetId():string{
         return this.shipId;
+
     }
 }
 class Game{
