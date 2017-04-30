@@ -18,6 +18,8 @@ class Ship{
         counter = 0;
         //dupa
         //dupa2
+         //dupa
+        //dupa2
         this.shipPositions = new Array<IPosition>();
         while(this.shipPositions.length < this.shipLength){
             var pos=this.getRandomPosition();
