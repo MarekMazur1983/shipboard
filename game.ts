@@ -16,8 +16,8 @@ class Ship{
     public AddShipPositions():boolean{
         var counter = 0;
         counter = 0;
-      //zmiana artur
-
+    
+        //zmiana marek
         this.shipPositions = new Array<IPosition>();
         while(this.shipPositions.length < this.shipLength){
             var pos=this.getRandomPosition();
