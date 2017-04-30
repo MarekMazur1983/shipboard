@@ -6,6 +6,7 @@ class Ship {
     }
     AddShipPositions() {
         var counter = 0;
+        counter = 0;
         this.shipPositions = new Array();
         while (this.shipPositions.length < this.shipLength) {
             var pos = this.getRandomPosition();
