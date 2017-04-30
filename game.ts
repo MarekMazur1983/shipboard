@@ -16,10 +16,7 @@ class Ship{
     public AddShipPositions():boolean{
         var counter = 0;
         counter = 0;
-        //dupa
-        //dupa2
-         //dupa
-        //dupa2
+    
         //zmiana marek
         this.shipPositions = new Array<IPosition>();
         while(this.shipPositions.length < this.shipLength){
